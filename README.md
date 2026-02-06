@@ -118,20 +118,21 @@ dynamodb:PutItem
 ## Example minimal policy:
 
 {
-"Version": "2012-10-17",
-"Statement": [
-{
-"Effect": "Allow",
-"Action": ["ses:SendEmail"],
-"Resource": "*"
-},
-{
-"Effect": "Allow",
-"Action": ["dynamodb:PutItem"],
-"Resource": "arn:aws:dynamodb:REGION:ACCOUNT_ID:table/RATE_TABLE_NAME"
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": ["ses:SendEmail"],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": ["dynamodb:PutItem"],
+      "Resource": "arn:aws:dynamodb:REGION:ACCOUNT_ID:table/RATE_TABLE_NAME"
+    }
+  ]
 }
-]
-}
+
 
 ## Security Considerations
 
