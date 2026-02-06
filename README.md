@@ -17,20 +17,20 @@ The system is designed to be lightweight, secure, and scalable with minimal oper
 
 ## Key Features
 
-Serverless architecture (AWS Lambda + API Gateway)
-Email sending through Amazon SES (v2 SDK)
-Atomic rate limiting using DynamoDB conditional writes
-Automatic cleanup using DynamoDB TTL
-Honeypot field for bot filtering
-CORS protection
-Minimal dependencies (AWS SDK v3 only)
-High-Level Flow
-Client sends POST request to /contact
-Lambda parses request body
-Honeypot field is checked
-Rate limit is enforced per IP per hour
-Email is sent via Amazon SES
-Response is returned to client
+- Serverless architecture (AWS Lambda + API Gateway)
+- Email sending through Amazon SES (v2 SDK)
+- Atomic rate limiting using DynamoDB conditional writes
+- Automatic cleanup using DynamoDB TTL
+- Honeypot field for bot filtering
+- CORS protection
+- Minimal dependencies (AWS SDK v3 only)
+- High-Level Flow
+- Client sends POST request to /contact
+- Lambda parses request body
+- Honeypot field is checked
+- Rate limit is enforced per IP per hour
+- Email is sent via Amazon SES
+- Response is returned to client
 
 ## API Specification
 # Endpoint
