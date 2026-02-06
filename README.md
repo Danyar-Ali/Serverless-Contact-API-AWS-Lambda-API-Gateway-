@@ -8,10 +8,10 @@ This project is a production-oriented serverless backend for a website contact f
 
 It provides:
 
-- • Email delivery using Amazon SES v2
-- • IP-based rate limiting using DynamoDB with TTL
-- • Basic bot protection via honeypot field
-- • CORS handling for browser-based clients
+- Email delivery using Amazon SES v2
+- IP-based rate limiting using DynamoDB with TTL
+- Basic bot protection via honeypot field
+- CORS handling for browser-based clients
 
 The system is designed to be lightweight, secure, and scalable with minimal operational overhead.
 
