@@ -1,4 +1,4 @@
-## Serverless Contact Form Backend
+# Serverless Contact Form Backend
 
 AWS Lambda · Amazon SES · DynamoDB Rate Limiting
 
